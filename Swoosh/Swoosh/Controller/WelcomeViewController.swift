@@ -19,7 +19,6 @@ class WelcomeViewController: UIViewController {
     }
     
     @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue) {
-        
     }
 }
 
