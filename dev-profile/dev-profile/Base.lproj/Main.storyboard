@@ -38,38 +38,47 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="w50-Uv-CGL">
-                                <rect key="frame" x="90" y="254" width="234" height="57"/>
+                                <rect key="frame" x="111" y="254" width="192" height="44"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ej-SA-sPC">
-                                        <rect key="frame" x="0.0" y="0.0" width="58" height="57"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="1uk-6C-Tez"/>
+                                            <constraint firstAttribute="width" constant="44" id="n7G-j4-9ac"/>
+                                        </constraints>
                                         <state key="normal" image="cameraButton"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAh-jM-h3Y">
-                                        <rect key="frame" x="88" y="0.0" width="58" height="57"/>
+                                        <rect key="frame" x="74" y="0.0" width="44" height="44"/>
                                         <state key="normal" image="favoriteButton"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLe-0q-ukQ">
-                                        <rect key="frame" x="176" y="0.0" width="58" height="57"/>
+                                        <rect key="frame" x="148" y="0.0" width="44" height="44"/>
                                         <state key="normal" image="inboxButton"/>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="qLe-0q-ukQ" firstAttribute="width" secondItem="6Ej-SA-sPC" secondAttribute="width" id="Ro5-fD-dh4"/>
+                                    <constraint firstItem="nAh-jM-h3Y" firstAttribute="width" secondItem="6Ej-SA-sPC" secondAttribute="width" id="biu-bf-7jf"/>
+                                    <constraint firstAttribute="width" secondItem="w50-Uv-CGL" secondAttribute="height" multiplier="48:11" id="gKv-Mt-xQP"/>
+                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Dpd-gA-BRe">
-                                <rect key="frame" x="20" y="335" width="374" height="179"/>
+                                <rect key="frame" x="20" y="322" width="374" height="187"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="CEE-h9-9bN">
-                                        <rect key="frame" x="0.0" y="0.0" width="179" height="179"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="179" height="187"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="CEE-h9-9bN" secondAttribute="height" multiplier="1:1" id="Cot-Tl-t41"/>
                                         </constraints>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images Image" translatesAutoresizingMaskIntoConstraints="NO" id="Enq-PZ-bow">
-                                        <rect key="frame" x="195" y="0.0" width="179" height="179"/>
+                                        <rect key="frame" x="195" y="0.0" width="179" height="187"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3wr-aO-8Iz">
-                                <rect key="frame" x="20" y="538" width="374" height="179"/>
+                                <rect key="frame" x="20" y="533" width="374" height="179"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="mW2-R1-ioU">
                                         <rect key="frame" x="0.0" y="0.0" width="179" height="179"/>
@@ -96,6 +105,7 @@
                             <constraint firstItem="h5Q-4I-JrC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QwP-kY-Oef"/>
                             <constraint firstAttribute="trailing" secondItem="3wr-aO-8Iz" secondAttribute="trailing" constant="20" id="Ulr-Gn-f5O"/>
                             <constraint firstItem="iWh-fR-Ozz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Zmh-Q3-vVl"/>
+                            <constraint firstAttribute="bottom" secondItem="3wr-aO-8Iz" secondAttribute="bottom" constant="24" id="bkw-kN-svo"/>
                             <constraint firstItem="Dpd-gA-BRe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cHs-V9-fI4"/>
                             <constraint firstItem="3wr-aO-8Iz" firstAttribute="top" secondItem="Dpd-gA-BRe" secondAttribute="bottom" constant="24" id="jNa-Tm-o00"/>
                             <constraint firstItem="xIy-Jf-6un" firstAttribute="leading" secondItem="h5Q-4I-JrC" secondAttribute="trailing" constant="8" id="qd1-4G-cDl"/>
