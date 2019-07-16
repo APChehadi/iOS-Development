@@ -47,6 +47,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="1uk-6C-Tez"/>
+                                            <constraint firstAttribute="width" secondItem="6Ej-SA-sPC" secondAttribute="height" multiplier="1:1" id="Pql-NL-kE4"/>
                                             <constraint firstAttribute="width" constant="44" id="n7G-j4-9ac"/>
                                         </constraints>
                                         <state key="normal" image="cameraButton"/>
@@ -60,10 +61,6 @@
                                         <state key="normal" image="inboxButton"/>
                                     </button>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="qLe-0q-ukQ" firstAttribute="width" secondItem="6Ej-SA-sPC" secondAttribute="width" id="Ro5-fD-dh4"/>
-                                    <constraint firstItem="nAh-jM-h3Y" firstAttribute="width" secondItem="6Ej-SA-sPC" secondAttribute="width" id="biu-bf-7jf"/>
-                                </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Dpd-gA-BRe">
                                 <rect key="frame" x="20" y="280" width="728" height="250"/>
