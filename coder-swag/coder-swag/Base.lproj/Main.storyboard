@@ -24,19 +24,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PLa-bB-zsU">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="140" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PLa-bB-zsU">
                                 <rect key="frame" x="0.0" y="70" width="414" height="602"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="140" id="eC5-Nl-wjR" customClass="CategoriesTableViewCell" customModule="coder_swag" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="140" id="eC5-Nl-wjR" customClass="CategoryTableViewCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="140"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eC5-Nl-wjR" id="ac2-sr-3fq">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="139.66666666666666"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="DW0-51-nnx">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="139.66666666666666"/>
+                                                    <rect key="frame" x="0.0" y="3" width="414" height="133.66666666666666"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClN-fO-qRH">
                                                     <rect key="frame" x="127" y="55" width="160" height="30"/>
@@ -51,9 +51,9 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="DW0-51-nnx" firstAttribute="leading" secondItem="ac2-sr-3fq" secondAttribute="leading" id="1Yc-Ig-LY7"/>
-                                                <constraint firstAttribute="bottom" secondItem="DW0-51-nnx" secondAttribute="bottom" id="CgR-fQ-2uc"/>
+                                                <constraint firstAttribute="bottom" secondItem="DW0-51-nnx" secondAttribute="bottom" constant="3" id="CgR-fQ-2uc"/>
                                                 <constraint firstAttribute="trailing" secondItem="DW0-51-nnx" secondAttribute="trailing" id="QXM-v9-SCO"/>
-                                                <constraint firstItem="DW0-51-nnx" firstAttribute="top" secondItem="ac2-sr-3fq" secondAttribute="top" id="Ym6-9U-199"/>
+                                                <constraint firstItem="DW0-51-nnx" firstAttribute="top" secondItem="ac2-sr-3fq" secondAttribute="top" constant="3" id="Ym6-9U-199"/>
                                                 <constraint firstItem="ClN-fO-qRH" firstAttribute="centerX" secondItem="ac2-sr-3fq" secondAttribute="centerX" id="ae6-hP-uJn"/>
                                                 <constraint firstItem="ClN-fO-qRH" firstAttribute="centerY" secondItem="ac2-sr-3fq" secondAttribute="centerY" id="keg-2U-zpb"/>
                                             </constraints>
