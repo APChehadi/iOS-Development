@@ -17,6 +17,7 @@
 		31D9A1EA22FA970A00EBA5E0 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D9A1E922FA970A00EBA5E0 /* DataService.swift */; };
 		31D9A1EC22FAA3B000EBA5E0 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D9A1EB22FAA3B000EBA5E0 /* ProductCollectionViewCell.swift */; };
 		31D9A1EE22FAA87A00EBA5E0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D9A1ED22FAA87A00EBA5E0 /* Product.swift */; };
+		31D9A1F022FBD02500EBA5E0 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D9A1EF22FBD02400EBA5E0 /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		31D9A1E922FA970A00EBA5E0 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		31D9A1EB22FAA3B000EBA5E0 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		31D9A1ED22FAA87A00EBA5E0 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		31D9A1EF22FBD02400EBA5E0 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				31D9A1D122FA62A100EBA5E0 /* CategoriesViewController.swift */,
+				31D9A1EF22FBD02400EBA5E0 /* ProductsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				31D9A1D222FA62A100EBA5E0 /* CategoriesViewController.swift in Sources */,
 				31D9A1D022FA62A100EBA5E0 /* AppDelegate.swift in Sources */,
+				31D9A1F022FBD02500EBA5E0 /* ProductsViewController.swift in Sources */,
 				31D9A1E522FA673200EBA5E0 /* CategoryTableViewCell.swift in Sources */,
 				31D9A1E722FA889300EBA5E0 /* Category.swift in Sources */,
 				31D9A1EC22FAA3B000EBA5E0 /* ProductCollectionViewCell.swift in Sources */,

@@ -51,11 +51,11 @@ class DataService {
         case "SHIRTS":
             return getShirts()
         case "HATS":
-            return getHats()()
+            return getHats()
         case "HOODIES":
-            return getHoodies()()
+            return getHoodies()
         case "DIGITAL":
-            return getDigitalGoods()()
+            return getDigitalGoods()
         default:
             return getShirts()
         }

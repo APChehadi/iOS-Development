@@ -80,17 +80,17 @@
                     <navigationItem key="navigationItem" title="CODER SWAG" id="IN4-e1-bDc"/>
                     <connections>
                         <outlet property="categoryTable" destination="PLa-bB-zsU" id="DY8-bc-5xL"/>
-                        <segue destination="9Yh-UL-HpC" kind="show" id="CwB-FA-NAz"/>
+                        <segue destination="9Yh-UL-HpC" kind="show" identifier="ProductsViewController" id="CwB-FA-NAz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="940.57971014492762" y="-549.45652173913049"/>
         </scene>
-        <!--View Controller-->
+        <!--Products View Controller-->
         <scene sceneID="6n3-w1-1EX">
             <objects>
-                <viewController id="9Yh-UL-HpC" sceneMemberID="viewController">
+                <viewController id="9Yh-UL-HpC" customClass="ProductsViewController" customModule="coder_swag" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1tA-Oc-jtG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,7 +115,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Vmj-Di-hW2" customClass="ProductCollectionViewCell" customModule="coder_swag" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCell" id="Vmj-Di-hW2" customClass="ProductCollectionViewCell" customModule="coder_swag" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="175" height="273"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -147,7 +147,7 @@
                                         </view>
                                         <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="CCv-A2-GkP" firstAttribute="top" secondItem="QhY-k8-DFV" secondAttribute="bottom" constant="20" id="04f-w8-ShQ"/>
+                                            <constraint firstItem="CCv-A2-GkP" firstAttribute="top" secondItem="QhY-k8-DFV" secondAttribute="bottom" id="04f-w8-ShQ"/>
                                             <constraint firstItem="QhY-k8-DFV" firstAttribute="leading" secondItem="Vmj-Di-hW2" secondAttribute="leadingMargin" id="5rt-hA-qI5"/>
                                             <constraint firstItem="GvY-gD-Y8r" firstAttribute="top" secondItem="Vmj-Di-hW2" secondAttribute="top" id="6r0-xe-H9O"/>
                                             <constraint firstItem="GvY-gD-Y8r" firstAttribute="leading" secondItem="Vmj-Di-hW2" secondAttribute="leading" id="Dqb-Dm-SZ0"/>
@@ -178,6 +178,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8R7-x5-si9"/>
                     </view>
+                    <connections>
+                        <outlet property="productsCollection" destination="e1h-0e-4D4" id="epZ-Hy-ZTH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1mn-J6-ZEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
