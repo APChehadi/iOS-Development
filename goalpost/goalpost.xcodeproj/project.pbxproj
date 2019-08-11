@@ -19,6 +19,7 @@
 		31996A8322FFD79C0025A82B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31996A8222FFD79C0025A82B /* UIViewControllerExt.swift */; };
 		31996A8522FFDC7D0025A82B /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31996A8422FFDC7D0025A82B /* UIViewExt.swift */; };
 		31996A8722FFE2570025A82B /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31996A8622FFE2570025A82B /* UIButtonExt.swift */; };
+		31996A89230096650025A82B /* FinishGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31996A88230096650025A82B /* FinishGoalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		31996A8222FFD79C0025A82B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		31996A8422FFDC7D0025A82B /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		31996A8622FFE2570025A82B /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		31996A88230096650025A82B /* FinishGoalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				316AB35022FFB3E800CF4C46 /* GoalsViewController.swift */,
 				31996A8022FFD61B0025A82B /* CreateGoalViewController.swift */,
+				31996A88230096650025A82B /* FinishGoalViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			files = (
 				31996A7D22FFBF5C0025A82B /* GoalTableViewCell.swift in Sources */,
 				31996A8122FFD61B0025A82B /* CreateGoalViewController.swift in Sources */,
+				31996A89230096650025A82B /* FinishGoalViewController.swift in Sources */,
 				31996A7F22FFD1750025A82B /* GoalType.swift in Sources */,
 				316AB35722FFB3E800CF4C46 /* goalpost.xcdatamodeld in Sources */,
 				31996A8522FFDC7D0025A82B /* UIViewExt.swift in Sources */,
