@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMQ-4L-HTb">
-                                        <rect key="frame" x="157.66666666666666" y="28" width="98.999999999999972" height="24.666666666666671"/>
+                                        <rect key="frame" x="157.66666666666666" y="33" width="98.999999999999972" height="24.666666666666671"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1tZ-f8-9p6">
                                                 <rect key="frame" x="0.0" y="0.0" width="51" height="24.666666666666668"/>
@@ -39,7 +39,7 @@
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ry-Qw-gSd">
-                                        <rect key="frame" x="364" y="24.333333333333329" width="35" height="32"/>
+                                        <rect key="frame" x="364" y="29.333333333333329" width="35" height="32"/>
                                         <state key="normal" image="addGoal"/>
                                         <connections>
                                             <action selector="addGoalBtnWassPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="36V-GM-Xey"/>
@@ -51,7 +51,7 @@
                                     <constraint firstAttribute="height" constant="70" id="A61-k8-fat"/>
                                     <constraint firstItem="9ry-Qw-gSd" firstAttribute="centerY" secondItem="wMQ-4L-HTb" secondAttribute="centerY" id="EWE-dz-e0w"/>
                                     <constraint firstItem="wMQ-4L-HTb" firstAttribute="centerX" secondItem="zCr-k3-815" secondAttribute="centerX" id="OSD-KM-7dm"/>
-                                    <constraint firstItem="wMQ-4L-HTb" firstAttribute="top" secondItem="zCr-k3-815" secondAttribute="topMargin" id="gXC-Ag-0M5"/>
+                                    <constraint firstItem="wMQ-4L-HTb" firstAttribute="top" secondItem="zCr-k3-815" secondAttribute="topMargin" constant="5" id="gXC-Ag-0M5"/>
                                     <constraint firstAttribute="trailing" secondItem="9ry-Qw-gSd" secondAttribute="trailing" constant="15" id="mx5-nT-lkv"/>
                                 </constraints>
                             </view>
@@ -99,16 +99,16 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="336" height="23.666666666666668"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Goal:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="APW-Ek-s3t">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="55" height="23.666666666666668"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="23.666666666666668"/>
                                                                     <constraints>
-                                                                        <constraint firstAttribute="width" constant="55" id="HsA-hf-Eji"/>
+                                                                        <constraint firstAttribute="width" constant="50" id="HsA-hf-Eji"/>
                                                                     </constraints>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Eat salad twice a week" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="ttC-xU-dDE">
-                                                                    <rect key="frame" x="60" y="0.0" width="276" height="23.666666666666668"/>
+                                                                    <rect key="frame" x="55" y="0.0" width="281" height="23.666666666666668"/>
                                                                     <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
