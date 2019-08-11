@@ -21,7 +21,8 @@ class GoalsViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
 
     @IBAction func addGoalBtnWassPressed(_ sender: Any) {
-        print("Button was pressed")
+        guard let createGoalViewController = storyboard?.instantiateViewController(withIdentifier: "CreateGoalViewController") else { return }
+        presentDetail(createGoalViewController)
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
